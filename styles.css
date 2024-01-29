@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+li button:last-child {
+    margin-left: 20px;
+}
+
+li button:nth-of-type(1) {
+    color: #fff;
+    background: red;
+}
+
+button {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    border: 2px #0e0e0e solid;
+}
+
+#create {
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 100px;
+    height: 30px;
+}
+
+button:hover {
+  cursor: pointer;
+    scale: 1.06;
+}
+
+label {
+    margin-left: 20px;
+    font-weight: bold;
+    color: rgb(12, 12, 78);
+}
+
+input {
+    width: 300px;
+    height: 30px;
+}
+
+.desc {
+    margin-top: 10px;
+}
+
+.desc input {
+    margin-left: 7px;
+}
+
+.courses {
+    display: flex;
+}
+
+.courses li {
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: #5049a2;
+    border-radius: 15px;
+    color: white;
+    margin: 20px;
+    overflow: hidden;
+    position: relative;
+    transition: 0.25s;
+}
+
+.courses li:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+}
+
+.course-name {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.course-name h4 {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase; /* ? */
+}
+
+p {
+    padding: 10px 0;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.course-action {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
